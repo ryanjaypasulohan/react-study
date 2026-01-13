@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+$primary-color: #155dfc;
+$secondary-color: #101828;
+$tertiary-color: #f9fafb;
+$fourth-color: #000;
+$paragraph-color: #475467;
+$primary-font: 'Playfair Display', serif;
+$secondary-font: 'Roboto', sans-serif;
+
+
+.wrapper{
+    max-width: 1200px; width: 100%; margin: 0 auto;
+}
+.nav{}
+.nav li{}
+.nav li a{color: $paragraph-color; font-weight: 500;}

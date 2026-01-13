@@ -1,0 +1,11 @@
+@import '../stlyesheets/global.scss';
+
+// header 
+.logo{}
+.logo h2{}
+.logo .initial_name{  background: $primary-color; color: $tertiary-color; padding: 5px 10px; border-radius: 10px 15px;}
+.logo{}
+
+// banner
+.banner { width: 100vw; position: relative; left: 50%; transform: translateX(-50%); }
+.banner .swiper .swiper-wrapper figure img { height: 700px; width: 100%; object-fit: cover; object-position: center center; }
