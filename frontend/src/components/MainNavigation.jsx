@@ -1,23 +1,22 @@
 import React from 'react'
 
-
 const MainNavigation = () => {
     return (
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+        <ul className="flex justify-end gap-6">
+            <li>
+                <a className="text-gray-700 font-medium hover:text-blue-600 transition" href="#">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+            <li>
+                <a className="text-gray-700 font-medium hover:text-blue-600 transition" href="#">About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+            <li>
+                <a className="text-gray-700 font-medium hover:text-blue-600 transition" href="#">Services</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+            <li>
+                <a className="text-gray-700 font-medium hover:text-blue-600 transition" href="#">Blog</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+            <li>
+                <a className="text-gray-700 font-medium hover:text-blue-600 transition" href="#">Contact</a>
             </li>
         </ul>
     )

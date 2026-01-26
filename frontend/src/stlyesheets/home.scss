@@ -7,17 +7,24 @@
 .logo{}
 
 // banner
-.banner { width: 100vw; position: relative; left: 50%; transform: translateX(-50%); height: 700px; }
+.banner { width: 100%; position: relative; height: 700px; }
 .banner:before{content: ''; background: #0007; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5;}
 .banner .swiper .swiper-wrapper figure img { height: 700px; width: 100%; object-fit: cover; object-position: center center; }
 .banner_information { position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); max-width: 1200px; width: 100%; z-index: 10; color: #f9fafb; line-height: 100%; display: grid; place-items: center; row-gap: 1rem; }
 .banner_information h2{color: $tertiary-color;}
 .banner_information p{}
-.default_btn{ color: $tertiary-color; background: $primary-color; transition: .15s ease-in-out; padding: 0.75rem; border-radius: 0.75rem;}
-.default_btn:hover { color:  $primary-color; background: $tertiary-color; }
-.fadeEffect {
-    animation: fade 1s ease-in-out;
-}
+
+
+// about our company 
+
+// services home page
+.services_container_con{background: $paragraph-color; color: $tertiary-color;}
+.services_container_con h2{color: $tertiary-color;}
+.serv_boxes { display: flex; justify-content: start; flex-direction: column; align-items: start; padding: 2rem !important; border-radius: 2rem; min-height: 18em; transition: .3s ease-in-out; }
+.serv_boxes:hover { cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,0.2); transform: translateY(-10px); }
+.serv_boxes figure img { width: 100%; max-width: 60px; }
+.serv_boxes h5 { margin: .5rem 0; }
+.serv_boxes h5, .serv_boxes p { color: $tertiary-color; text-align: left;}
 
 
 

@@ -1,10 +1,11 @@
-
 import './app.scss'
 import {Route, Routes, BrowserRouter, Link} from 'react-router-dom'
 import Aboutus from './pages/Aboutus.jsx'
 import Home from './pages/Home.jsx'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
 import './stlyesheets/global.scss'
+import './stlyesheets/home.scss'
+
 
 export function App() {
 
@@ -20,3 +21,4 @@ export function App() {
     </>
   )
 }
+export default App
