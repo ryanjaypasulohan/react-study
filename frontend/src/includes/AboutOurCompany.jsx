@@ -6,7 +6,7 @@ const AboutOurCompany = () => {
         <>
             <div className="about_our_company_con py-5">
                 <div className="wrapper">
-                    <div className="about_our_company_con flex flex-row items-center justify-between gap-4 overflow-hidden">
+                    <div className="about_our_company flex flex-row items-center justify-between gap-4 overflow-hidden">
                         <div className="about_content">
                             <h2 className='mb-3'>About Our Company</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
