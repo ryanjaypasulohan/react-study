@@ -6,6 +6,10 @@ import './index.css'
 import './stlyesheets/global.scss'
 import './stlyesheets/home.scss'
 
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+
 
 export function App() {
 

@@ -26,6 +26,9 @@
 .serv_boxes h5 { margin: .5rem 0; }
 .serv_boxes h5, .serv_boxes p { color: $tertiary-color; text-align: left;}
 
+// What our clients says / Testimonials
+.slick-prev::before { display: none; }
+.slick-next::before { display: none; }
 
 
 
