@@ -43,20 +43,22 @@ const Whatourclientsays = () => {
     {testimonials.map((testimonial, index) => {console.log(`${testimonial.imageURL} - ${testimonial.name}`)})}
     return (
         <>
-            <div className="testimonials_con">
+            <div className="testimonials_con py-15">
                 <div className="wrapper">
-                    <h2>What Our Client Says</h2>
-                      <Slider {...settings}>
+                    <h2>What does our customer say?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis iste veritatis. Voluptatem eaque, consequuntur iusto nisi dolore rerum est?</p>
+                      <div className="slider_con">
+                        <Slider {...settings}>
                         {testimonials.map((testimonial, index) => (
                             <div className="testimonial_card" key={index}>
                                 <figure><img src={testimonial.imageURL} alt={testimonial.name} onError={handleImageError} /></figure>
-                                <h3>{testimonial.name}</h3>
-                                <h4>{testimonial.title}</h4>
+                                <h3>{testimonial.name} <span>{testimonial.title}</span></h3>
                                 <p>{testimonial.feedback}</p>
 
                             </div>
                         ))}
                       </Slider>
+                      </div>
 
                 </div>
             </div>

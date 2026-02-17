@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AboutOurCompany = () => {
     return (
         <>
-            <div className="about_our_company_con py-5">
+            <div className="about_our_company_con py-15">
                 <div className="wrapper">
                     <div className="about_our_company flex flex-row items-center justify-between gap-4 overflow-hidden">
                         <div className="about_content">

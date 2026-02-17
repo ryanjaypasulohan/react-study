@@ -27,9 +27,20 @@
 .serv_boxes h5, .serv_boxes p { color: $tertiary-color; text-align: left;}
 
 // What our clients says / Testimonials
-.slick-prev::before { display: none; }
-.slick-next::before { display: none; }
-
+.slick-prev::before,.slick-next::before { display: none; }
+.testimonials_con{padding: 50px 0;}
+.testimonials_con h2{text-align: center; margin-bottom: 20px;}
+.testimonial_card { display: flex !important; justify-content: start; align-items: center; flex-direction: column; padding: 2rem; border-radius: 2rem; min-height: 18em; transition: 0.3s ease-in-out; text-align: center; font-family: $secondary-font; cursor: pointer;}
+.testimonial_card h3{line-height: 1.5; margin: 10px auto; font-family: $secondary-font; font-weight: 700; text-align: center;}
+.testimonial_card h3 span{display: block; font-size: 20px;}
+.slick-prev, .slick-next{width: 50px !important; z-index: 100 !important; transition: all .3s ease; display: none !important;}
+.slider_con button:hover{opacity: .5;}
+.slick-prev{left: 0 !important;}
+.slick-next{right: 0 !important;}
+.testimonial_card figure { overflow: hidden; border-radius: 50%; }
+.slider_con { margin: 50px auto; width: 100%; max-width: 777px; padding: 0 77px; background: #FFF; border-radius: 20px; position: relative; box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3333333333); }
+// .testimonial_card h3, .testimonial_card p { color: $tertiary-color; }
+.slick-dots { position: absolute; bottom: -25px; width: 100%; padding: 0; margin: 0; list-style: none; text-align: center; top: 50%; right: -50px; display: flex !important; flex-direction: column; align-items: end; max-width: 20px; height: 20px;}
 
 
 // keyframes

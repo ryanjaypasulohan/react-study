@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <>
-      <div className="services_container_con py-5">
+      <div className="services_container_con py-15">
         <div className="wrapper">
           <h2 className='text-center'>Serivces We Offer</h2>
           <p className='text-center mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, at?</p>
