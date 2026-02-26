@@ -43,6 +43,12 @@
 .slick-dots { position: absolute; bottom: -25px; width: 100%; padding: 0; margin: 0; list-style: none; text-align: center; top: 50%; right: -50px; display: flex !important; flex-direction: column; align-items: end; max-width: 20px; height: 20px;}
 
 
+// Latest Blog
+.latest_blog_con{background: $paragraph-color;}
+.latest_blog_con h2, .latest_blog_con p{color: $tertiary-color;}
+.latest_blog_con .blog_container .blog_box{background: #fff; border-radius: 20px; padding: 1rem; transition: .3s ease-in-out;}
+.latest_blog_con .blog_container .blog_box p, .blog_box h2{color: $paragraph-color;}
+
 // keyframes
 @keyframes fade {
     from {opacity: 0;}

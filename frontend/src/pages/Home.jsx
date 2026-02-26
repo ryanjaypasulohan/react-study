@@ -1,10 +1,11 @@
 import React from 'react'
 
-import Header from '../includes/Header'
-import Banner from '../includes/Banner'
-import AboutOurCompany from '../includes/AboutOurCompany'
-import Services from '../includes/Services'
-import Testimonials from '../includes/Whatourclientsays'
+import Header from '../includes/Home/Header'
+import Banner from '../includes/Home/Banner'
+import AboutOurCompany from '../includes/Home/AboutOurCompany'
+import Services from '../includes/Home/Services'
+import Testimonials from '../includes/Home/Whatourclientsays'
+import LatestBlog from '../includes/Home/LatestBlog'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
                 <AboutOurCompany />
                 <Services />
                 <Testimonials/>
+                <LatestBlog/>
             </div>
         </>
     )
